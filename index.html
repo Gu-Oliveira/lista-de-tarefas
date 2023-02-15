@@ -10,11 +10,38 @@
     
 </head>
 <body>
-    <h1>Lista de Tarefas</h1>
+    <aside>
+        <div class="menu-icon">
+            <div class="menu-icon-line"></div>
+            <div class="menu-icon-line"></div>
+            <div class="menu-icon-line"></div>
+        </div>
+
+        <div class="menu close">
+            
+            <div class="imprimir menu-itens">
+                <img src="icons/imprimir.png" alt="">
+                <span>Imprimir</span>
+            </div>
+
+            <div class="estat menu-itens">
+                <img src="icons/relatorios.png" alt="">
+                <span>Estatísticas</span>
+            </div>
+
+            <div class="config menu-itens">
+                <img src="icons/configuracoes.png" alt="">
+                <span>Configurações</span>
+            </div>
+
+        </div>
+        
+    </aside>
+
     <section class="lista">
+        <h1>Lista de Tarefas</h1>
         <div class="tarefas-adicionadas">
             <ul>
-                
             </ul>
         </div>
 
@@ -30,8 +57,23 @@
         </div>
         
     </section>
+
+    <div class="telas">
+        <div class="tela-configuracao">
+            
+        </div>
+
+        <div class="tela-estatisticas close">
+            <div class="btn-close">
+                <span>X</span>
+            </div>
+            <div class="estatisticas">
+                Em construção
+            </div>
+        </div>
+    </div>
     
-    <button class="imprimir">Imprimir</button>
+    
 
     <script src="script.js"></script>
 </body>
